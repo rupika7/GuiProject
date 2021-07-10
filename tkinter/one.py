@@ -1,0 +1,11 @@
+from tkinter import *
+root = Tk()
+redbutton=Button(root, text = "LEFT", fg = "green")
+redbutton.pack(side = LEFT)
+greenbutton=Button(root, text = "RIGHT", fg = "blue")
+greenbutton.pack(side = RIGHT)
+bluebutton=Button(root, text = "TOP", fg = "purple")
+bluebutton.pack(side = TOP)
+yellowbutton=Button(root, text = "BOTTOM", fg = "red")
+yellowbutton.pack(side = BOTTOM)
+root.mainloop()
